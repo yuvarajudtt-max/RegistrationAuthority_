@@ -80,6 +80,9 @@ dependencies {
 }
 implementation 'org.springframework.boot:spring-boot-starter-undertow'
 
+    constraints {
+        implementation("org.springframework.boot:spring-boot-starter-actuator:3.5.12")
+    }
 }
 
 
